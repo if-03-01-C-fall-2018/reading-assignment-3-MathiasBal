@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8"/>
+		<link rel="stylesheet" type="text/css" href="CheatSheet.css" /> 
+		<title>CheatSheet</title>
+	</head>
+
+	<body>
+		<h1>WEBT</h1>
+
+		<a title = "Go To The History Of the World Wide Web" href = "#WWWGeneral"> WWW General </a><br>
+		<a title = "Go To WebServer" href = "#WebServer"> Web Server </a><br>
+		<a title = "Go To WebClient" href = "#WebCient"> Web Client </a><br>
+		<a title = "Go To HelloWorld" href = "#HelloWorld"> Hello World </a><br>
+		<a title = "Go To HTML" href = "#HTML"> HTML</a><br>
+		<a title = "Go To HtmlForLists" href = "#HtmlForLists"> HTML For Lists</a><br>
+		<a title = "Go To CssForLists" href = "#CssForLists"> CSS For Lists</a><br>
+		<a title = "Go To HTMLTable" href = "#HTMLTable"> HTML Table</a><br>
+		<a title = "Go To CSSable" href = "#CSSTable"> CSS Table</a><br>
+		<a title = "BoxModel" href = "#BoxModel"> Box Model</a>
+		<a title = "ClassesAndIDs" href = "#ClassesAndIDs"></a>
+		<a title = "Floating" href = "#Floating"></a>
+		
+		<h2 id = "WWWGeneral"> Word Wide Web General</h2>
+
+		<p> 1. The most essential technologies that made the world Wide Web such a success are:	HyperText Markup Language (HTML), Uniform Resource Identifier (URI) and HyperText Transfer Protocol (HTTP)</p>
+		<p> 2. Resources are addressed with the URL.</p>
+		<p> 3. The general components are a scheme, a host, a path and a query string.</p>
+
+		<h2 id = "WebServer"> WebServer</h2>
+
+		<p> 1. A web server refers to a server software, or hardware dedicated to running sever, that can serve contents to the World Wide Web. A web server processes incoming network requests over HTTP and several other related protocols.</p>
+		<p> 2. The primary function of a web server is to store, process and deliver web pages to clients. </p>
+		<p> 3. The resource is typically a real file on the server's secondary storage, but this is not necessarily the case and depends on how the web server is implemented. </p>
+		<p> 4. The content is described with tags.</p>
+
+		<h2 id = "WebClient">Web Client</h2>
+
+		<p> 1. A web browser (commonly referred to as a browser) is a software application for accessing information on the World Wide Web.</p>
+		<p> 2. The display web pages, images, and videos on the user's device</p>
+		<p> 3. A web client gets data and the web browser processes the data</p>
+
+		<h2 id = "HelloWorld">Hello World</h2>
+
+		<p> 1. The head element is a container for all the head elements. The head element can include a title for the document, scripts, styles, meta information, and more. </p>
+		<p> 2. The !DOCTYPE declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in. </p>
+		<p> 3. The head- and body tag.</p>
+		<p> 4. You emphasize a text with em and the font changed to italics. </p>
+		<p> 5. You mark up an important text with strong.</p>
+
+		<h2 id = "HTML">HTML</h2>
+
+		<p> 1. A HTML Element consists normally of and start- and end-tag </p>
+		<p> 2. You can identify a void element by the missing closing tag, you can denote them be writing the start tag but with an / at the end e.g br/ </p>
+		<p> 3. Attributes usually come in name/value pairs like: name="value" </p>
+		<p> 4. &lt!DOCTYPE html&gt </p>
+		<p> 5.  </p>
+		<p style = "margin: 5px"> &ltarticle&gt	</p>
+		<p style = "margin: 15px"> &lth1&gt Google Chrome &lt/h1&gt </p>
+		<p style = "margin: 15px"> &ltp&gtGoogle Chrome is a free, open-source web browser developed by Google, released in 2008.&lt/p&gt </p>
+		<p style = "margin: 5px"> &lt/article&gt </p>
+
+		<h2 id = "HtmlForLists">Html for Lists</h2>
+
+		<p> An unordered list starts with &ltul&gt</p>
+		<p>
+			The CSS list-style-type property is used to define the style of the list item marker:<br>
+			disc:	Sets the list item marker to a bullet (default)<br>
+			circle	Sets the list item marker to a circle<br>
+			square	Sets the list item marker to a square<br>
+			none	The list items will not be marked
+		</p>
+		<p> An ordered list starts with &ltot&gt</p>
+		<p>
+			The type attribute of the &ltol&gt tag, defines the type of the list item marker:<br>
+			type="1"	The list items will be numbered with numbers (default)<br>
+			type="A"	The list items will be numbered with uppercase letters<br>
+			type="a"	The list items will be numbered with lowercase letters<br>
+			type="I"	The list items will be numbered with uppercase roman numbers<br>
+			type="i"	The list items will be numbered with lowercase roman numbers
+		</p>
+
+		<p> The &ltdl&gt tag defines the description list</p>
+		<p> The &ltdl&gt tag defines the description list, the &ltdt&gt tag defines the term (name), and the &ltdd&gt tag describes each term</p>
+		
+		<h2 id = "CssForLists">Css for Lists</h2>
+
+		<p> You make a bullet square by writing {list-style-type: square in your css file}.</p>
+		<p> Your own pictures are used like <br>
+			ul {<br>
+				list-style-image: url('sqpurple.gif');<br>
+			}
+		</p>
+
+		<h2 id = "HTMLTable">HTML Table</h2>
+
+		<p>
+			An HTML table is defined with the &lttable&gt tag.
+
+			Each table row is defined with the &lttr&gt tag. A table header is defined with the &ltth&gt tag. By default, table headings are bold and centered. A table data/cell is defined with the &lttd&gt tag.
+		</p>
+
+		<p>
+				If you want the borders to collapse into one border, add the CSS border-collapse property
+		</p>
+
+		<p>		
+				To set the padding, use the CSS padding property
+		</p>
+
+		<h2 id = "CSSTable">CSS Table</h2> 
+
+		<p>
+				To specify table borders in CSS, use the border property.
+		</p>
+
+		<p>
+				Add the border-bottom property to &ltth&gt and &lttd&gt for horizontal dividers
+		</p>
+
+		<p>
+				Add the border-bottom property to &ltth&gt and &lttd&gt for horizontal dividers
+		</p>
+
+		<p>
+				Add a container element (like &ltdiv&gt) with overflow-x:auto around the &lttable&gt element to make it responsive
+		</p>
+		
+		<h2 id = "BoxModel">Box Model</h2>
+		
+		<p>The BoxModel describes how every element of HTML is in a box.<br>Those boxes are <b>Margin, Border, Padding and Content.</b></p>
+		<p><b>Content</b>- The content of the box, where text and images appear<br><b>Padding</b>- Clears an area around the content. The padding is transparent.<br><b>Border</b>- A border that goes around the padding and content.<br><b>Margin</b>- Clears an area outside the border. The margin is transparent</p>
+		<p></p>
+		<h2 id = "Classes and IDs">Classes and IDs</h2>
+		
+		<h2 id = "Floating"></h2>
+	</body>
+
+</html>
